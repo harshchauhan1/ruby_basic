@@ -1,13 +1,10 @@
-
 if __FILE__ == $0
-	@str = 'harsh is your name'
+  @str = 'harsh is your name'
 end
-
 freq = Hash.new(0)
-@str=@str.downcase
-@str=@str.gsub(/[^A-z]/, "")
+@str = @str.downcase
+@str = @str.gsub(/[^A-z]/, "")
 @str.each_char do |ch|
-	freq[ch] += 1
+  freq[ch] += 1
 end
 puts freq
-	
