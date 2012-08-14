@@ -1,5 +1,5 @@
 class Array
-   def create_hash
+  def create_hash
     freq = Hash.new(Array.new)
     for item in self do
     	freq[item.to_s.length] += [item.to_s]
