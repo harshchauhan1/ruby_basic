@@ -13,8 +13,8 @@ class Interest
   end
 end
 obj = Interest.new.tap do |a|
-  a.p = @p
-  a.t = @t
+  a.p = @p.to_i
+  a.t = @t.to_i
   a.rate = 10
 end
 obj.diff
