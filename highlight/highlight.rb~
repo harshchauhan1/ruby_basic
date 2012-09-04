@@ -1,7 +1,7 @@
-puts "enter your string"
-@str = gets.chomp
-puts "enter the pattern to be searched"
-@pattern = gets.chomp
+if __FILE__ == $0
+  @str = 'Can you can a can as a canner can can a can?'
+  @pattern = 'can'
+end
 @str = @str.downcase
 pattern = Regexp.new(@pattern)
 count = @str.scan(pattern).size

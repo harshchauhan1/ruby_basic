@@ -1,5 +1,6 @@
-puts "enter your string"
-@str = gets.chomp
+if __FILE__ == $0
+  @str = 'jhh8556JH>>'
+end
 def count_char (str)
   count_upper = 0
   count_lower = 0

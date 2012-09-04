@@ -1,7 +1,7 @@
-puts "enter principle amount"
-@p = gets.chomp
-puts "enter time period"
-@t = gets.chomp
+if __FILE__ == $0
+  @p = 1000
+  @t = 1
+end
 class Interest
   attr_accessor :t
   attr_accessor :p

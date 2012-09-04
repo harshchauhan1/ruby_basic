@@ -1,5 +1,4 @@
-if __FILE__ == $0
-  @str = 'An apple a day keeps the doctor away'
-end
+puts "enter your string"
+@str = gets.chomp
 @str = @str.split(' ').reverse().join(' ')
 puts @str

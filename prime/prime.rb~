@@ -1,5 +1,6 @@
-puts "enter the no upto which you want to find prime numbers"
-@str = gets.chomp
+if __FILE__ == $0
+  @str = 50
+end
 def find_prime num
   primes = [2]
   3.step(num, 1) do |i|

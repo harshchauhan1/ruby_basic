@@ -1,5 +1,6 @@
-puts "enter the string"
-@str = gets.chomp
+if __FILE__ == $0
+  @str = "harah"
+end
 @str = @str.downcase
 if (@str.eql?('q'))
 	exit(ret = 0)

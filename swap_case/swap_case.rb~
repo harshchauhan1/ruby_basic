@@ -1,5 +1,6 @@
-puts "enter your string"
-@str = gets.chomp
+if __FILE__ == $0
+  @str = "harsh CHAUHAN"
+end
 class String
   def to_s
     puts swapcase

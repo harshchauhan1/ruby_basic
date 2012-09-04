@@ -1,5 +1,6 @@
-puts "enter your string"
-@str = gets.chomp
+if __FILE__ == $0
+  @str = 'harsh is your name'
+end
 freq = Hash.new(0)
 @str = @str.downcase
 @str = @str.gsub(/[^A-z]/, "")
