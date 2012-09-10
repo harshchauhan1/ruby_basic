@@ -12,17 +12,13 @@ def count_char (str)
   str.each do |variable|
 	if (upper.include?(variable))
 	  count_upper += 1
-	else 
-	  if (lower.include?(variable))
+	elsif (lower.include?(variable))
 		count_lower += 1
-      else
-	    if (num.include?(variable))
-	  	  count_num += 1
-	    else 
-		  count_special += 1
-	    end
-      end
-    end
+  elsif (num.include?(variable))
+	  count_num += 1
+	else 
+		count_special += 1
+	end    
 end
   puts "no of upper case charchters: #{count_upper}"
   puts "no of lower case charchters: #{count_lower}"
