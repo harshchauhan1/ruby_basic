@@ -14,7 +14,7 @@ def count_char (str)
 	  count_upper += 1
 	elsif (lower.include?(variable))
 		count_lower += 1
-  elsif (num.include?(variable))
+        elsif (num.include?(variable))
 	  count_num += 1
 	else 
 		count_special += 1
